@@ -1,0 +1,70 @@
+# ======================
+# Python cache & build
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ======================
+# Virtual environments
+# ======================
+graphrag/
+venv/
+.venv/
+env/
+pyvenv.cfg
+
+# ======================
+# Conda
+# ======================
+conda-meta/
+
+# ======================
+# IDE / Editor files
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# OS generated files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs & temp files
+# ======================
+*.log
+.cache/
+
+# ======================
+# ML / LLM artifacts
+# ======================
+models/
+*.gguf
+*.bin
+*.safetensors
+checkpoints/
+embeddings/
+
+# ======================
+# Secrets & env files
+# ======================
+.env
+.env.*
+
+# ======================
+# Test cache
+# ======================
+.pytest_cache/
+
+# ======================
+# Streamlit
+# ======================
+.streamlit/
+
+# ======================
+# Jupyter (if any)
+# ======================
+.ipynb_checkpoints/
