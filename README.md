@@ -31,17 +31,18 @@ Local Mistral-7B LLM
 ↓
 Grounded Natural Language Answer
 
+
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python 3.11**
-- **Neo4j (Community Edition)**
-- **Cypher**
-- **Mistral-7B Instruct (GGUF)**
-- **llama-cpp-python**
-- **Streamlit**
-- **Pandas**
+- Python 3.11
+- Neo4j (Community Edition)
+- Cypher
+- Mistral-7B Instruct (GGUF)
+- llama-cpp-python
+- Streamlit
+- Pandas
 
 ---
 
@@ -73,37 +74,34 @@ graph_rag_chatbot/
 ├── app.py
 └── requirements.txt
 
+
 ---
 
 ## ▶️ How to Run
 
-### 1. Activate virtual environment
+1. Activate the virtual environment
 ```bash
 graphrag311\Scripts\activate
-2. Start Neo4j
-Ensure Neo4j is running locally at:
+Start Neo4j
+2.Ensure Neo4j is running locally at:
 bolt://localhost:7687
-3. Run the Streamlit app
+3.Run the Streamlit app
 streamlit run app.py
 
-
-##🧪 Example Questions
+🧪 Example Questions
 
 Which ideas use AI?
-
 What initiatives address vegetation interference?
-
 Which projects improve reliability?
-
 Show ideas related to SCADA
 
-##🎯 Key Design Principle
+🎯 Key Design Principle
 
 The LLM is used only for answer synthesis, while all factual information is retrieved deterministically from the Neo4j knowledge graph. This design prevents hallucinations and improves reliability.
 
-##📌 Use Cases
+📌 Use Cases
+
 Knowledge graph–based decision support
 Enterprise innovation analysis
 Explainable AI systems
-
 Graph-RAG research and learning projects
