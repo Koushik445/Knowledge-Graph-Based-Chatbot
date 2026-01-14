@@ -85,3 +85,28 @@ Ensure Neo4j is running locally at:
 bolt://localhost:7687
 3. Run the Streamlit app
 streamlit run app.py
+
+
+🧪 Example Questions
+
+Which ideas use AI?
+
+What initiatives address vegetation interference?
+
+Which projects improve reliability?
+
+Show ideas related to SCADA
+
+🎯 Key Design Principle
+
+The LLM is used only for answer synthesis, while all factual information is retrieved deterministically from the Neo4j knowledge graph. This design prevents hallucinations and improves reliability.
+
+📌 Use Cases
+
+Knowledge graph–based decision support
+
+Enterprise innovation analysis
+
+Explainable AI systems
+
+Graph-RAG research and learning projects
